@@ -1,0 +1,79 @@
+<html>
+<head>
+	<title>Syntax Highlighter Demo</title>
+	<script type="text/javascript" src="./js/HiliSyntax_Live.js"></script>
+	 <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- // custom CSS -->
+    <link rel="stylesheet" href="./css/master.css">
+
+    <!-- // using bootstrap links -->
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <section class="header">
+    <div class="header-name">
+      hiliSyntax();
+    </div>
+    <div class="sub-header-name">
+      A Syntax High-lighter
+    </div>
+    <hr>
+  </section>
+
+  <div class="body-container">
+
+      <section>
+        <div class="row">
+          <button type="button" name="darkTheme" class="col-sm-3" onclick="darkTheme();">Dark Theme</button>
+          <button type="button" name="lightTheme" class="col-sm-3" onclick="lightTheme();">Light Theme</button>
+          <button type="button" name="suffleTheme" class="col-sm-3" onclick="suffleTheme();">Suffle Theme</button>
+          <button type="button" name="copyCode" class="col-sm-3" onclick="myFunction();">Copy Code</button>
+        </div>
+      </section>
+
+<br>
+      <div class="row">
+        <section class="col-sm-6">
+          <div class="input-div">
+            <h1>INPUT CODE</h1>
+            <hr/>
+          </div>
+          <textarea name="name" class="" id="input"  oninput="transform()"></textarea>
+        </section>
+
+        <section class="col-sm-6">
+          <div class="input-div">
+            <h1>HIGHLIGHTED CODE</h1>
+            <hr/>
+          </div>
+          <div id="output-aread" >
+            <pre id="output-area">
+            </pre>
+
+          </div>
+        </section>
+
+      </div>
+
+  </div>
+
+ 
+  <footer>
+    BlareGroup &copy 2019
+  </footer>
+</body>
+</html>

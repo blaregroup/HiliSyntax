@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>Syntax Highlighter Demo</title>
+	<script type="text/javascript" src="./js/HiliSyntax_Link.js"></script>
+	 <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+	<h1 style="text-align:center;color:red;">Syntax highlighter</h1>
+	<hr style="color:darkblue;background-color:darkblue;width:90%;height:5px;"/>
+	<br>
+	<h2 style="text-align: center">Dark Theme</h2>
+	<pre class="HiliSyntax_Dark" style="border:1px solid green;width:50%;margin:20px auto;">
+
+#include<stdio.h>
+//#include<conio.h>
+void main()
+{
+	int big,small,arr[5],i;
+
+	printf("\n Enter 5 number:");
+	for(i=0;i<5;i++)
+	scanf("%d",&arr[i]);
+
+	big=arr[0];
+	small = arr[0];
+
+	for(i=0;i<5;i++)
+	{
+		if(big<arr[i])
+			big=arr[i];
+
+		if(small>arr[i])
+			small =arr[i];
+	}
+
+	printf("\n biggest number is : %d",big);
+	printf("\n Smallest number is : %d",small);
+}
+
+</pre>
+
+<br>
+	<h2 style="text-align: center">Light Theme</h2>
+	
+	<pre class="HiliSyntax_Light" style="border:1px solid green;width:50%;margin:20px auto;">
+switch(op)
+		{	int
+			//case '+': cout<<"\nAnswer : "<<(a+b); break;
+			/*case '-': cout<<"\n Answer : "<<(a-b); break;*/
+			case '*': cout<<"\n Answer : "<<(a*b); break;
+			case '/': cout<<"\n Answer : "<<(a/b); break;
+			default : cout<<"\n Wrong input";
+			main(int a)
+		}
+</pre>
+
+
+
+</body>
+</html>
