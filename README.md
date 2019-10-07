@@ -38,4 +38,8 @@ It is a simple Syntax Highlighter tool that will highlight programming syntax in
       3. Default Theme is Dark but you can choose Light Theme By clicking on Light Theme Button or you can try unlimited Theme by Clicking on Shuffle Theme button.
       4. Once you are done with code or choosing right theme then click on copy code button it will copy the whole code for you and then paste it in your Webpage or Blog where ever you want to be. 
       
-           
+---           
+# Preview
+ 
+  ## Dark_Theme
+    ![Dark Theme](img/DarkTheme.png "Dark Theme")
