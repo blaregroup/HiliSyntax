@@ -9,11 +9,11 @@ It is a simple Syntax Highlighter tool that will highlight programming syntax in
  + First is By Adding A link in your webpage.
    + Steps to use HiliSyntax Highlighter by Adding links:-
       1. Add The Below link in your webpage between the head tag.
-          > <script type="text/javascript" src="./js/HiliSyntax_Live.js"></script>
+          > <script type="text/javascript" src="https://github.com/blaregroup/HiliSyntax/blob/master/js/HiliSyntax_Link.js"></script>
         
           >   eg:- <br/>
                &lt; head &gt; <br/>
-                  <script type="text/javascript" src="./js/HiliSyntax_Live.js"></script>
+                  <script type="text/javascript" src="https://github.com/blaregroup/HiliSyntax/blob/master/js/HiliSyntax_Link.js"></script>
                <br/>
                &lt; /head &gt;
         
