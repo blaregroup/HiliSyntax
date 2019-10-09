@@ -11,8 +11,8 @@ It is a simple Syntax Highlighter tool that will highlight programming syntax in
  
  1. Add The Below link in your webpage between the head tag.
     
-   <script type="text/javascript" src="https://cdn.statically.io/gh/blaregroup/HiliSyntax/master/js/HiliSyntax_Link.js"></script>
-    
+   <script type="text/javascript" src="https://cdn.statically.io/gh/blaregroup/HiliSyntax/master/js/HiliSyntax_Link.js" > </script>
+<br>    
 
 ```        
         eg:- <br/>
