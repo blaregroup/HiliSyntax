@@ -288,3 +288,10 @@ function transform(){
 	highlighter(ColorCodeCollection);
 	
 }
+function myFunction(){
+	var copyText = document.querySelector("#output-area");
+  	copyText.select();
+	document.execCommand("copy");
+	console.log(son);
+	//console.log(document.getElementById("output-area").innerHTML);
+}
