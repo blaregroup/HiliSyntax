@@ -13,37 +13,38 @@ It is a simple Syntax Highlighter tool that will highlight programming syntax in
  
 + Add The Below link in your webpage between the head tag.
     
-```
-   <script type="text/javascript" src="https://cdn.statically.io/gh/blaregroup/HiliSyntax/master/js/HiliSyntax_Link.js" > </script>
-```
+    ```
+       <script type="text/javascript" src="https://cdn.statically.io/gh/blaregroup/HiliSyntax/master/js/HiliSyntax_Link.js" > </script>
+    ```
 
-```        
-        eg:- <br/>
-           <head > 
-              <script type="text/javascript" src="https://cdn.statically.io/gh/blaregroup/HiliSyntax/master/js/HiliSyntax_Link.js"></script>
-           
-          </head>;
- ```
+    ```        
+            eg:- <br/>
+               <head > 
+                  <script type="text/javascript" src="https://cdn.statically.io/gh/blaregroup/HiliSyntax/master/js/HiliSyntax_Link.js"></script>
+
+              </head>;
+     ```
  
 + Now Add your code in pre tag
 
-```
- eg:- 
-            < pre >
-              //your code
-            </pre>;
-```
+     ```
+      eg:- 
+                 < pre >
+                   //your code
+                 </pre>;
+     ```
 
 + Then add any of one class in pre tag **HiliSyntax_Light** or **HiliSyntax_Dark**
-
-```
- eg:- 
-        < pre class="HiliSyntax_Light">
-           //your code
-        </pre>
-```       
-    - Use HiliSyntax_Light Class for Light Theme 
-    - Use HiliSyntax_Dark  Class for Dark Theme
+      - Use HiliSyntax_Light Class for Light Theme 
+      - Use HiliSyntax_Dark  Class for Dark Theme
+     
+     ```
+      eg:- 
+             < pre class="HiliSyntax_Light">
+                //your code
+             </pre>
+     ```       
+   
   
   
     
