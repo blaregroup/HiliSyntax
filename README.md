@@ -1,13 +1,17 @@
 # HiliSyntax
 It is a simple Syntax Highlighter tool that will highlight programming syntax in your blog or webpage.
 
+![Dark Theme](img/Logo.png "Hili Syntax")
+
 ---
 
 ## How to use ?
  You can use this tool in two ways to Highlight Syntax in your Webpage or Blog :-
 1. By Adding Link Of HiliSyntax Highlighter in your Webpage or Blog.
 2. By Using Our Live Syntax Highlighter Tool.
- Now Discuss Both Methods one by one :- 
+ <br/>
+ 
+  Now Discuss Both Methods one by one :- 
  
 ### 1.Steps to use HiliSyntax Highlighter by Adding links:-
  
@@ -18,20 +22,20 @@ It is a simple Syntax Highlighter tool that will highlight programming syntax in
     ```
 
     ```        
-            eg:- <br/>
-               <head > 
-                  <script type="text/javascript" src="https://cdn.statically.io/gh/blaregroup/HiliSyntax/master/js/HiliSyntax_Link.js"></script>
+        eg:- 
+             <head > 
+               <script type="text/javascript" src="https://cdn.statically.io/gh/blaregroup/HiliSyntax/master/js/HiliSyntax_Link.js"></script>
 
-              </head>;
+             </head>;
      ```
  
 + Now Add your code in pre tag
 
      ```
-      eg:- 
-                 < pre >
-                   //your code
-                 </pre>;
+         eg:- 
+               < pre >
+                 //your code
+               </pre>;
      ```
 
 + Then add any of one class in pre tag **HiliSyntax_Light** or **HiliSyntax_Dark**
@@ -39,10 +43,10 @@ It is a simple Syntax Highlighter tool that will highlight programming syntax in
       - Use HiliSyntax_Dark  Class for Dark Theme
      
      ```
-      eg:- 
-             < pre class="HiliSyntax_Light">
-                //your code
-             </pre>
+         eg:- 
+              < pre class="HiliSyntax_Light">
+                 //your code
+              </pre>
      ```       
    
   
