@@ -5,14 +5,17 @@ It is a simple Syntax Highlighter tool that will highlight programming syntax in
 
 ## How to use ?
  You can use this tool in two ways to Highlight Syntax in your Webpage or Blog :-
+1. By Adding Link Of HiliSyntax Highlighter in your Webpage or Blog.
+2. By Using Our Live Syntax Highlighter Tool.
+ Now Discuss Both Methods one by one :- 
  
-####  First is By Adding A link in your webpage.
-###### Steps to use HiliSyntax Highlighter by Adding links:-
+### 1.Steps to use HiliSyntax Highlighter by Adding links:-
  
- 1. Add The Below link in your webpage between the head tag.
+1. Add The Below link in your webpage between the head tag.
     
+```
    <script type="text/javascript" src="https://cdn.statically.io/gh/blaregroup/HiliSyntax/master/js/HiliSyntax_Link.js" > </script>
-<br>    
+```
 
 ```        
         eg:- <br/>
@@ -43,9 +46,8 @@ It is a simple Syntax Highlighter tool that will highlight programming syntax in
    + Use HiliSyntax_Dark  Class for Dark Theme
   
   
-#### Second Option is By Using Live Syntax Higlighter Tool 
     
-###### Steps to use HiliSyntax Live Highlighter Tool :-
+### 2.Steps to use HiliSyntax Live Highlighter Tool :-
 
 1. Clone This Repository and Run LiveHiliSyntax.html in browser.
 
