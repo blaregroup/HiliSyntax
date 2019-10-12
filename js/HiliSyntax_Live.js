@@ -98,9 +98,7 @@ function highlighter(ColorCodeCollection)
 	//compiling all pattern  at once
 	var EXPRESSION = new RegExp(EXP_ALL,'g');
 
-	//Processing each class for highlighting
-	//for(n=0;n<obj.length;n++)
-	//{
+	
 		outputContent.style.background=Background_Color;
 		outputContent.style.color = Font_Color;
 		
@@ -120,7 +118,7 @@ function highlighter(ColorCodeCollection)
 		for(var i = (START_MATCHPOINTS.length-1);i>=0;i--)
 		{
 			var content = highlightedContent.substring(START_MATCHPOINTS[i],END_MATCHPOINTS[i]);
-
+			var funcontent = highlightedContent.substring(START_MATCHPOINTS[i],END_MATCHPOINTS[i]+2);
 			//console.log(content);
 
 			if(COMMENTS_REGEX.test(content))
@@ -133,6 +131,10 @@ function highlighter(ColorCodeCollection)
 				formattedText= '<span style=\"color:'+Sentence_Color+'\"  >'+content+'</span>';
 
 			}
+			else if(FUNNAME_REGEX.test(funcontent))
+			{
+				formattedText= '<span style=\"color:'+Funname_Color+'\"  >'+content+'</span>';				
+			}
 			else if(KEYWORD_REGEX.test(content))
 			{
 				formattedText = '<span style=\"color:'+Keyword_Color+'\"  >'+content+'</span>';
@@ -144,8 +146,9 @@ function highlighter(ColorCodeCollection)
 			}
 			else
 			{
+				console.log("no matched");
 				//function highlighter
-				formattedText = '<span style=\"color:'+Funname_Color+'\"  >'+content+'</span>';
+				//formattedText = '<span style=\"color:'+Funname_Color+'\"  >'+content+'</span>';
 			}
 
 			//console.log(formattedText)
@@ -153,7 +156,7 @@ function highlighter(ColorCodeCollection)
 			highlightedContent = highlightedContent.substring(0,START_MATCHPOINTS[i])+formattedText+highlightedContent.substring(END_MATCHPOINTS[i]);
 		}
 
-		//console.log(highlightedContent[0]);
+		
 
 		//adding line numbers to highlightedContent
 		var tmp = highlightedContent;
@@ -174,7 +177,7 @@ function highlighter(ColorCodeCollection)
 		//reinitializing start and end points
 		START_MATCHPOINTS = [];
 		END_MATCHPOINTS = [];
-	//}
+	
 
 
 
@@ -278,8 +281,6 @@ function main()
 	darkTheme();
 }
 
-//call to main function  after page is fully loaded
-window.onload = function(){main()}
 
 //this function calls whenever text area is changed
 function transform(){
@@ -288,10 +289,40 @@ function transform(){
 	highlighter(ColorCodeCollection);
 	
 }
-function myFunction(){
-	var copyText = document.querySelector("#output-area");
-  	copyText.select();
-	document.execCommand("copy");
-	console.log(son);
-	//console.log(document.getElementById("output-area").innerHTML);
+
+
+//This function will handle the copy command
+function copyFunction(){
+
+	  /*  getting content form output div */	
+	  var finalCode = document.getElementById("output-div");
+
+	  /*	creating new text area for copying the final code */
+	  var textarea = document.createElement('textarea');
+
+	  	textarea.id = 'temp_element';			//giving id to textarea
+	  	textarea.style.height = 0;				//styling text area
+		document.body.appendChild(textarea);	//adding text area to html 
+
+	  /* creating variable for accessing temp_element textarea */
+	  var copyText = document.getElementById("temp_element");
+
+	  //adding content to textarea
+	  copyText.innerHTML = finalCode.innerHTML;
+
+	  /* Select the text field */
+	 	 copyText.select();
+	  	
+
+	  /* Copy the text inside the text field */
+	    document.execCommand("copy");
+
+	     // Remove the textarea
+	  document.body.removeChild(textarea);
+	  
 }
+
+
+
+//call to main function  after page is fully loaded
+window.onload = function(){main()}

@@ -1,12 +1,15 @@
 <html>
 <head>
 	<title>Syntax Highlighter Demo</title>
-	<script type="text/javascript" src="./js/HiliSyntax_Live.js"></script>
+	
 	 <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
+    <!-- HiliSyntax javascript link  -->
+    <script type="text/javascript" src="./js/HiliSyntax_Live.js"></script>
+    
     <!-- // custom CSS -->
     <link rel="stylesheet" href="./css/master.css">
 
@@ -41,7 +44,7 @@
           <button type="button" name="darkTheme" class="col-sm-3" onclick="darkTheme();">Dark Theme</button>
           <button type="button" name="lightTheme" class="col-sm-3" onclick="lightTheme();">Light Theme</button>
           <button type="button" name="suffleTheme" class="col-sm-3" onclick="suffleTheme();">Suffle Theme</button>
-          <button type="button" name="copyCode" class="col-sm-3" onclick="myFunction();">Copy Code</button>
+          <button type="button" name="copyCode" class="col-sm-3" onclick="copyFunction();">Copy Code</button>
         </div>
       </section>
 
@@ -52,7 +55,9 @@
             <h1>INPUT CODE</h1>
             <hr/>
           </div>
-          <textarea name="name" class="" id="input"  oninput="transform()"></textarea>
+          <textarea name="name" class="" autofocus="autofocus" id="input"  oninput="transform()">
+            
+          </textarea>
         </section>
 
         <section class="col-sm-6">
@@ -60,7 +65,7 @@
             <h1>HIGHLIGHTED CODE</h1>
             <hr/>
           </div>
-          <div id="output-aread" >
+          <div id="output-div" >
             <pre id="output-area">
             </pre>
 
@@ -70,6 +75,7 @@
       </div>
 
   </div>
+
 
  
   <footer>
