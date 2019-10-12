@@ -15,7 +15,7 @@ It is a simple Syntax Highlighter tool that will highlight programming syntax in
  
 ### 1.Steps to use HiliSyntax Highlighter by Adding links:-
  
-+ Add The Below link in your webpage between the head tag.
+1. Add The Below link in your webpage between the head tag.
     
     ```
        <script type="text/javascript" src="https://cdn.statically.io/gh/blaregroup/HiliSyntax/master/js/HiliSyntax_Link.js" > </script>
@@ -29,7 +29,7 @@ It is a simple Syntax Highlighter tool that will highlight programming syntax in
              </head>;
      ```
  
-+ Now Add your code in pre tag
+2. Now Add your code in pre tag
 
      ```
          eg:- 
@@ -38,9 +38,10 @@ It is a simple Syntax Highlighter tool that will highlight programming syntax in
                </pre>;
      ```
 
-+ Then add any of one class in pre tag **HiliSyntax_Light** or **HiliSyntax_Dark**
-      - Use HiliSyntax_Light Class for Light Theme 
-      - Use HiliSyntax_Dark  Class for Dark Theme
+3. Then add any of one class in pre tag **HiliSyntax_Light** or **HiliSyntax_Dark**
+      
+       - Use HiliSyntax_Light Class for Light Theme 
+       - Use HiliSyntax_Dark  Class for Dark Theme
      
      ```
          eg:- 
