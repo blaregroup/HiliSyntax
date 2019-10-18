@@ -55,9 +55,9 @@ It is a simple Syntax Highlighter tool that will highlight programming syntax in
     
 ### 2.Steps to use HiliSyntax Live Highlighter Tool :-
 
-1. Clone This Repository and Run LiveHiliSyntax.html in browser.
+1. To open Live Editor click [here](https://cdn.statically.io/gh/blaregroup/HiliSyntax/master/LiveHiliSyntax.html).
 
-2. Now in one side write your code or paste the code and on other side Highlighted code will be generated automatically.
+2. In Editor one side write your code or paste the code and on other side Highlighted code will be generated automatically.
 
 3. Default Theme is Dark but you can choose Light Theme By clicking on Light Theme Button or you can try unlimited Theme by Clicking on Shuffle Theme button.
 
