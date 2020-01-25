@@ -105,7 +105,8 @@ function highlighter(ThemeClassName,ColorCodeCollection)
 		obj[n].style.color = Font_Color;
 		//getting content of class
 		highlightedContent[n] = obj[n].textContent;
-
+		highlightedContent[n]=  highlightedContent[n].replace(/</g,"&lt;");
+		highlightedContent[n]=  highlightedContent[n].replace(/>/g,"&gt;");
 		//collecting location of matched pattern in highlightedContent
 		while((match = EXPRESSION.exec(obj[n].textContent))!==null)
 		{
