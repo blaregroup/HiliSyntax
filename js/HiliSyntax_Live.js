@@ -104,7 +104,8 @@ function highlighter(ColorCodeCollection)
 		
 		//getting content of class
 		highlightedContent = inputContent.value;
-
+		highlightedContent=  highlightedContent.replace(/</g,"&lt;");
+		highlightedContent=  highlightedContent.replace(/>/g,"&gt;");
 		//collecting location of matched pattern in highlightedContent
 		while((match = EXPRESSION.exec(highlightedContent))!==null)
 		{
