@@ -2,7 +2,7 @@
 //														 				\\
 //		Author: Himanshu Sharma 						 				\\
 //				himanshusharma2972@gmail.com 			 				\\
-//				github.com/himanshu-sharma2018 			 				\\
+//				github.com/himanshusharmacool			 				\\
 //														 				\\
 //		About : It is a simple Syntax Higlighlighter 	 				\\
 //				that you can use to Highlight syntax 	 				\\
