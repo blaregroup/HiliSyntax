@@ -83,5 +83,5 @@ It is a simple Syntax Highlighter tool that will highlight programming syntax in
 ---  
 
 ## Developers/Author
-- Himanshu Sharma [Email](himanshusharma2972@gmail.com)   [github/himanshu-sharma2018](https://github.com/himanshu-sharma2018)
+- Himanshu Sharma [Email](himanshusharma2972@gmail.com)   [github/himanshu-sharma2018](https://github.com/himanshuthecoder)
 - Slowest Wind  [Email](slowestwind@gmail.com)   [github/slowestwind](https://github.com/slowestwind)
