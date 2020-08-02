@@ -2,6 +2,7 @@
 //														 				\\
 //		Author: Himanshu Sharma 						 				\\
 //				himanshusharma2972@gmail.com 			 				\\
+
 //				github.com/himanshuthecoder				 				\\
 //														 				\\
 //		About : It is a simple Syntax Higlighlighter 	 				\\
